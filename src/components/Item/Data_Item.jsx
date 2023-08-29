@@ -6,6 +6,7 @@ import List_Pokemon from "../List_Pokemon";
 import { useNavigate } from "react-router-dom";
 import Card_Data_Item from "./Card_Data_Item";
 import Carrusel_Description from "../Carrusel_Description"
+import Footer from "../Footer"
 
 
 function Data_Item({ item }) {
