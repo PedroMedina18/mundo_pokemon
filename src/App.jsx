@@ -6,7 +6,6 @@ import Type from './pages/Type'
 import Ability from './pages/Ability'
 import Move from './pages/Move'
 import Item from './pages/Item'
-import Generation from './pages/Generation'
 import BuscarItems from './pages/BuscarItems'
 import Page_404 from './pages/Page_404'
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
@@ -22,7 +21,6 @@ function App() {
         <Route path="/habilidad/:ability" element={<Ability />} />
         <Route path="/movimiento/:move" element={<Move />} />
         <Route path="/items/" element={<BuscarItems />} />
-        <Route path="/generacion/:generation" element={<Generation />} />
         <Route path="/item/:item" element={<Item />} />
         <Route path="*" element={<Page_404/>} />
       </Routes>

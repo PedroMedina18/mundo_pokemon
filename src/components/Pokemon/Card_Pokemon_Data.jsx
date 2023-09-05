@@ -102,7 +102,7 @@ function Card_Pokemon_Data({ Pokemon }) {
                     }
                     <hr className="my-1" />
                     <div className="w-100 d-flex justify-content-center">
-                        <Link to={`/generacion/${Pokemon.especie.generation.name}`} className="fs-5 fw-bold mb-0 link-card"><span>Generación: </span><img height="22px" width="55px" src={generation[Pokemon.especie.generation.name.replace('-', '_')].icono} alt="generacion" /></Link>
+                        <p className="fs-5 fw-bold mb-0"><span>Generación: </span><img height="22px" width="55px" src={generation[Pokemon.especie.generation.name.replace('-', '_')].icono} alt="generacion" /></p>
                     </div>
                     <hr className="my-1" />
                     {

@@ -11,7 +11,7 @@ function Error404() {
       <main className='container-data-pokemon'>
         <div className='container-404 text-dark'>
           <div className='sub-404'>
-            <h3>Página no encontrada.</h3>
+            <h3>Página no Encontrada.</h3>
             <p>¡Lo sentimos la página que buscas no existe, te ofrecemos estas opciones para que explores!</p>
             <ul >
               <li className='d-inline'><Link className='link-button' to="/">Inicio</Link></li>
